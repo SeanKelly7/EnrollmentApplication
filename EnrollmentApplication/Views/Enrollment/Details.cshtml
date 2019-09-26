@@ -36,6 +36,18 @@
 
     </dl>
 </div>
+<div>
+	@Html.DisplayFor(model => model.IsActive);
+</div>
+<div>
+	@Html.DisplayFor(model => model.AssignedCampus);
+</div>
+<div>
+	@Html.DisplayFor(model => model.EnrollmentSemester);
+</div>
+<div>
+	@Html.DisplayFor(model => model.EnrollmentYear);
+</div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.EnrollmentId }) |
     @Html.ActionLink("Back to List", "Index")
